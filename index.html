@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Session 4</title>
+</head>
+<body>
+<header>
+<h1>Great Fight Siblings</h1>
+<h2>Welcome to the video game!</h2>
+
+</header>
+<main class="container">
+<div class="field">
+    <div class="character">
+    <img src="img/character1.jpg" alt="Character 1">
+    <p id="character1-info">
+        Points:
+    </p>
+    <button id="characterOneAttack-btn" onclick="attack(character1,character2);">Attack!</button>
+</div>
+<div class="character">
+    <img src="img/character2.jpg" alt="Character 2">
+    <p id="character2-info">
+        Points:
+    </p>
+    <button id="characterTwoAttack-btn" onclick="attack(character2,character1);">Attack!</button>
+
+</div>
+</div>
+
+</main>
+<div class="container console" id="console">
+This is the console
+
+</div>
+<div class="container restart">
+    <button id="restart-button" onclick="restart();">Restart the Game</button>
+</div>
+<footer>
+
+
+    <p>All Rights Reserved &copy; 2021 Nathan Vik</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
